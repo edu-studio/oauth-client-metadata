@@ -1,0 +1,12 @@
+{
+  "client_id": "https://edu-studio.github.io/oauth-client-metadata/.well-known/oauth-client-metadata.json",
+  "client_name": "EDU Studio",
+  "client_uri": "https://edu.studio",
+  "redirect_uris": [
+    "https://ism.develop.app.edu.studio/api/tenant/connections/oauth/callback",
+    "http://localhost:5111/api/tenant/connections/oauth/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
