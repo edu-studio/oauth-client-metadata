@@ -5,7 +5,7 @@
   "redirect_uris": [
     "https://ism.develop.app.edu.studio/api/tenant/connections/oauth/callback",
     "http://localhost:5111/api/tenant/connections/oauth/callback",
-    "http://100.91.107.121:5156/api/tenant/connections/oauth/callback"
+    "http://100-91-107-121.sslip.io:5156/api/tenant/connections/oauth/callback"
   ],
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
